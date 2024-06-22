@@ -16,7 +16,7 @@ const Main = ({ setEmail }) => {
 
   // Backend URL stored in .env for security purpose 
   //This is how we use .env in VITE
-  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+  const API_URL = import.meta.env.VITE_API_URL;
 
   // Setting the state of button to loading or not 
   const [isloading, setIsLoading] = useState(false);

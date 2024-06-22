@@ -14,7 +14,7 @@ import React, { useEffect, useState } from "react";
 
 const Grid = ({email,setEmail}) => {
 
-  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000"
+  const API_URL = import.meta.env.VITE_API_URL
 
   //Storing info fetched from mongo db
   const [info,setInfo] = useState({
